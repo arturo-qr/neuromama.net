@@ -4,9 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head runat="server">
-		<link runat="server" rel="shortcut icon" href="~/images/favicon.ico" type="image/x-icon" />
-		<link runat="server" rel="icon" href="~/images/favicon.ico" type="image/ico" />
-		<meta runtat="server" name="description" content="EURASIA is ultimate experience. Make your investment reservations at the home of the famous dancing fountains, award-winning casino, fine art gallery, magnificent pools, and luxury shopping opportunities."/>
+		<link runat="server" rel="shortcut icon" href="~/images/neuro_ico.ico" type="image/x-icon" />
+		<link runat="server" rel="icon" href="~/images/neuro_ico.ico" type="image/ico" />
+		<meta runtat="server" name="description" content="Neuromama Information"/>
 		<!-- JS --><script type="text/javascript" src="js/commoncode.js"></script>
 		<script type="text/javascript" src="js/jquery-1.js"></script>
 		<!-- JS --><script type="text/javascript" src="js/jquery_004.js"></script> 
@@ -187,10 +187,10 @@
 		<div id="Branding">
 			<div style="float: left; height: 29px;">
 				<a href="#" onclick=getNewPage('Default.aspx');><div style="position: relative; left: 17px; float: left; height: 29px;">
-					<img src="images2/logo.png" alt="Global Entertainment & Media Ltd." border="0" height="29" width="140">
+					<img src="images/NeuroMama_small.png" alt="NEUROMAMA" border="0" height="31" width="108">
 				</div>
 				</a>
-				<span style="position: relative; left: 25px; font-family: 'Didact Gothic', sans-serif; font-size: 18px; color: #ffffff">LIVE ENTERTAINMENT HOTEL CASINO MEGA RESORT IN LAS VEGAS</span>
+				<span style="position: relative; left: 25px; font-family: 'Didact Gothic', sans-serif; font-size: 18px; color: #ffffff">The 21st Century Search Engine, Based on Neuro Technology.</span>
 			</div>
 		</div>
 		<!-- Logged in Navigation Items -->
@@ -225,7 +225,7 @@
 				</li-->  
 			</ul>
 		</div>
-		<div id="SubHeader"><span style="font-family: 'Didact Gothic',sans-serif; font-size: 13px; color: #ffffff">Live Entertainment relives pain and lowers blood pressure... It's good for your health - <strong style="font-size: 16px; color: #C5A88D">Anatoliy Myagkostupov</strong></span></div>
+		<div id="SubHeader"><span style="font-family: 'Didact Gothic',sans-serif; font-size: 13px; color: #ffffff"><strong style="font-size: 16px; color: #C5A88D">Fewer duplicates, more accurate returns, faster results, Frequent Searcher Rewards for gift certificates. Join now!</strong></span></div>
 		<!-- /HeaderNavigation -->
 	</div>
 </div>

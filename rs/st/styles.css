@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* Bellagio CSS Document */
+
+
+/* =universals
+These rules are applied to all elements unless otherwise specified below.*/
+* { margin : 0 0px 0 0; 
+padding : 0; }
+h2, h3, h4, h5, p, ul, ol, hr { margin : 0 0px; padding: 0em; }
+
+/***** Removes the dotted outline in FireFox when image links are clicked on *****/
+a{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:none;}
+a:hover{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:underline;}
+
+
+/* =html */
+/*This creates a persistent scroll bar in Firefox to prevent page jump*/
+/*html { overflow: -moz-scrollbars-vertical !important; }*/
+html { overflow-y:auto; }
+
+/* =body */
+body{background: #040c2d url(../st/MainBackground.jpg) top center no-repeat;}
+
+/*a{color: #994C33; text-decoration: underline;}
+a:hover{color: #994C33; text-decoration: none;}
+a:visited{color: #994C33; text-decoration: underline;}*/
+
+/*************************************
+	Header Styles
+*************************************/
+div#HeaderContainer {
+	/*background-image: url(../images/header/Header-Drop-Shadow.png);
+	background-repeat: no-repeat;
+	background-position: top center;*/
+	height: 120px;
+	width: 100%;
+	z-index: 20;
+	top: 5px;
+
+	
+}
+
+div#HeaderContent{ width: 1050px; margin: 0 auto; padding-top: 15px;text-align: center;}
+div#Branding{ height: 29px;  margin: 0 auto; }
+div#SubHeader{height: 20px; padding-top: 10px;}
+/* div#HeaderNavigation{ margin: 31px 0px 0px 20px; width:740px; float: left; } */
+/* div#HeaderNavigation - See nav-book-gui.css */
+/*div{
+	border: red 1px solid;
+}
+*/
+/*************************************
+	Home Page Styles
+*************************************/
+
+
+
+div#PageContainerOuter{ width: 100%; }
+
+div#PageContainer{ top:15px; width: 850px; margin: 0 auto;  padding-bottom:20px;}
+
+div#PageContent{ 
+	width: 850px;
+
+
+	background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                   support rgba */
+    background: rgba(54, 25, 25, .5); }
+#HomeColumn1{
+	padding: 20px 20px 0px 20px;
+	color: #C5A88D;float: right;
+	font-family: 'Roboto Condensed', sans-serif;
+    height: 500px;
+    font-size: 18px;
+
+}
+#HomeColumn2 {
+	padding: 20px 20px 0px 20px;
+	color: #C5A88D;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+    height: 740px;
+}
+
+span.style1{
+	font-size: 12pt;
+	font-weight: bold;
+	color: #FFCC00;
+	text-decoration: underline;
+}
+a:link.on, a:visited.on {color: #904C39; text-decoration:none;}
+a:link.off, a:visited.off {color: #69563E; text-decoration:none;}
+a:link.done, a:visited.done {color: #69563E; text-decoration:none;}
+a.on:hover, a.off:hover, a.done:hover {text-decoration:underline;}

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Eurasia Las Vegas" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Title="Neuromama Information Website" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
@@ -21,7 +21,7 @@
 					<param name="wmode" value="transparent" />
 					<param name="scale" value="tofit" />
 					<param name="allowFullScreen" value="true" />
-					<param name="flashvars" value="autoplay=true&amp;v=&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.9&amp;bgGradient1=#000000&amp;bgGradient2=#101010" />
+					<param name="flashvars" value="autoplay=true&amp;v=media/videoroca.flv&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.9&amp;bgGradient1=#000000&amp;bgGradient2=#101010" />
 					<param name="menu" value="true" />
 					<param name="devicefont" value="false" />
 					<param name="salign" value="" />
@@ -33,7 +33,7 @@
 						<param name="play" value="true" />
 						<param name="loop" value="true" />
 						<param name="allowFullScreen" value="true" />
-						<param name="flashvars" value="autoplay=true&amp;v=&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.9&amp;bgGradient1=#000000&amp;bgGradient2=#101010" />
+						<param name="flashvars" value="autoplay=true&amp;v=media/videoroca.flv&amp;img=Untitled-6.png&amp;repeat=true&amp;btnIcon=#6CFF00&amp;playIcon=#6CFF00&amp;controlsBgAlpha=0.9&amp;bgGradient1=#000000&amp;bgGradient2=#101010" />
 						<param name="wmode" value="transparent" />
 						<param name="scale" value="tofit" />
 						<param name="menu" value="true" />
@@ -64,10 +64,40 @@
 					<div id="DetailHeader"></div>
 					<div id="DetailCopy">
 						<span class="style1" style="display: block; margin: 0px auto; text-align: center;">
-							Neuromama 
+							NeuroMama 
 						</span>
 						<br/><br />
-					
+						June 19..... NeuroMama, Ltd. .... your company will start trading on NASDAQ BB with the stock symbol "NERO"
+						<br/><br />
+						July 19.... 200th day of the year.
+						<br/><br />
+						On this 200th day NeuroMama.com will open its first Las Vegas Vacation Club in Fashion Show Mall.
+						<br/><br />
+						On this 200th day NeuroMama and EURASIA will announce its $1 Billion dollar Joint Marketing Agreement.
+						<br/><br />
+						On this 200th day of the year will be announced the Las Vegas location of the largest in the world EURASIA LIVE ENTERTAINMENT HOTEL CASINO MEGA RESORT.
+						<br/><br />
+						On this 200th day of the year will be announced the location of the World Largest "Las Vegas Dream Mall"
+						<br/><br />
+						On this 200th day of the year will be announced the location of the World Largest "Las Vegas Dream Convention Center" with the World Tallest Ferris Wheel along with all 7 replicas of Wonders of the Ancient World.  
+						<br/><br />
+						On July 19th NeuroMama.com will launch its Live Entertainment Fundraising Marathon that will take 6 days - 144 hours of continuous live entertainment. 
+						<br/><br />
+						During this 144 hours performers from around the world will perform, and those performances will be broadcasted on television around the world and streamed live on NeuroMama.com
+						<br/><br />
+						During this 144 hours NeuroMama.com will raise $1 Billion dollars to fund its philanthropic initiatives.
+						<br/><br />
+						On July 19th. NeuroMama.com will launch this fundraising event with the most incredible Cirque Style Production in Fashion Show Mall in Las Vegas and St. Petersburg, Russia.
+						<br/><br />
+						From Kim Kardashian to the present and the former Governor of Nevada will attend.
+						<br/><br />
+						All politicians of Las Vegas from the former Mayor of Las Vegas to the present Mayor will attend.
+						<br/><br />
+						There at Fashion Show Mall you'll see the legendary cast of Saturday Night Live..... And the cast of the new "Live from Las Vegas" will be there.
+						<br/><br />
+						On July 19th the simila magnitude of politicians and celebrities will attend special performance "NeuroMama" in "Licedei Theather" in St. Petersburg, Russia.
+						<br/><br />
+						This is the sample of productions of Leonid Leikin the former star of Cirque De Soleil and Anatoliy Myagkostoupv, the father of Vladislav Myagkoustoupov the current star of Cirque De Soleil and  the President and CEO of Global Live Entertainment, Ltd.,'s Aces of Acts with 54 of Global Fortune 500 companies among its 250 clients.
 					</div>
 				</div>
 			</div>
