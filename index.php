@@ -20,8 +20,9 @@
 		<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
 		<!-- TESTING PDFVIEWER-->
 		<link rel="stylesheet" href="style.css" />
-		<script type="text/javascript" src="tinybox.js"></script>
+		
 		<!--End of block of pdftesting
+        <script type="text/javascript" src="tinybox.js"></script>
 		<asp:ContentPlaceHolder id="head" runat="server">
 		</asp:ContentPlaceHolder>
         -->
@@ -58,7 +59,7 @@
 			<!-- Tabs Panel -->
 			<!--<ul id="nav"></li-->
 				<!--li onmouseover=painttab(1); onmouseout=unpainttab(1);><a href="#" onclick="return false;" class="btn-euover">EURASIA OVERVIEW AND PHILOSOPHY</a-->
-					<!--First Tab-->
+					<!--First Tab
 					
 					<ul onmouseover=painttab(1); onmouseout=unpainttab(1);>
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/introduction.aspx');>Eurasia Introduction</a></li>
@@ -67,7 +68,7 @@
 						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/mission.aspx');>Eurasia Mission</a></li>
 						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#"  onclick=getNewPage('tabs/1-overview/reestablishing.aspx');>Reestablishing Las Vegas As The Cross-Trail Of The World</a></li>
 					</ul> 
-				  
+				  -->
 			<!--</ul>-->
 		</div>
 		<div id="SubHeader"><span style="font-family: 'Didact Gothic',sans-serif; font-size: 13px; color: #ffffff"><strong style="font-size: 16px; color: #C5A88D">Fewer duplicates, more accurate returns, faster results, Frequent Searcher Rewards for gift certificates. Join now!</strong></span></div>

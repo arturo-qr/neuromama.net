@@ -1,14 +1,9 @@
-﻿<%@ Page Title="Neuromama Information Website" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
-
-<BR/><BR/>
-<BR/><BR/>
-<BR/><BR/>
-<div id="PageContainerOuter">
+﻿<div id="PageContainerOuter">
 	<div id="PageContainer">
 		<!-- Home Left Column Begins -->
 		<div id="HomeColumn1">
 			<div id="flashvideo2">
-				<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="450" height="300" >
+				<object width="450" height="300" >
 					<param name="movie" value="videoplayer.swf" />
 					<param name="quality" value="best" />
 					<param name="bgcolor" value="#000000" />
@@ -52,7 +47,7 @@
 		</div>
 		<div id="HomeColumn2">
 			<div id="HomeGalleryNavigation"> 
-					<center></center> 
+					
 					<br /><br />
 			</div>
 			<div id="HomeGallery">
@@ -109,7 +104,7 @@
 				</span>
 			</div-->
 			<!-- /Twitter Feed -->	
-			<div class="HomePageRule"><img src="images/spacer_002.gif" height="1" width="470"></div>
+			<div class="HomePageRule"><img src="images/spacer_002.gif" alt="lol" height="1" width="470"></div>
 			<!-- Facebook Feed -->
 			<div id="TwitterFeedContainer"></div>
 			<!-- /Facebook Feed -->
