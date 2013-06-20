@@ -1,17 +1,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<link rel="shortcut icon" href="~/images/neuro_ico.ico" type="image/x-icon" />
-		<link rel="icon" href="~/images/neuro_ico.ico" type="image/ico" />
+		<link rel="shortcut icon" href="/images/neuro_ico.ico" type="image/x-icon" />
+		<link rel="icon" href="/images/neuro_ico.ico" type="image/ico" />
 		<meta name="description" content="Neuromama Information"/>
-		<!-- JS --><script type="text/javascript" src="js/commoncode.js"></script>
-		<script type="text/javascript" src="js/jquery-1.js"></script>
-		<!-- JS --><script type="text/javascript" src="js/jquery_004.js"></script> 
-		<script type="text/javascript" src="js/jquery.js"></script>
+		<!-- JS --><script type="text/javascript" src="/js/commoncode.js"></script>
+		<script type="text/javascript" src="/js/jquery-1.js"></script>
+		<!-- JS --><script type="text/javascript" src="/js/jquery_004.js"></script> 
+		<script type="text/javascript" src="/js/jquery.js"></script>
 
 		<!-- TEST DELETE IF NECESARY-->
 
-		<script type="text/javascript" src="js/base.js"></script>
-        <script type="text/javascript" src="js/tabs.js"></script>
+		<script type="text/javascript" src="/js/base.js"></script>
+        <script type="text/javascript" src="/js/tabs.js"></script>
 
 		<script type="text/javascript" src="AC_RunActiveContent.js"></script>
 		<!-- CSS -->
@@ -20,7 +20,15 @@
 		<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
 		<!-- TESTING PDFVIEWER-->
 		<link rel="stylesheet" href="style.css" />
-		
+		<nav>
+			<ul onmouseover=painttab(1); onmouseout=unpainttab(1);>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/introduction.aspx');>Eurasia Introduction</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/overview.aspx');>Eurasia Overview</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/philosophy.aspx');>Eurasia Philosophy</a></li>
+						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/mission.aspx');>Eurasia Mission</a></li>
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#"  onclick=getNewPage('tabs/1-overview/reestablishing.aspx');>Reestablishing Las Vegas As The Cross-Trail Of The World</a></li>
+					</ul> 
+		</nav>
 		<!--End of block of pdftesting
         <script type="text/javascript" src="tinybox.js"></script>
 		<asp:ContentPlaceHolder id="head" runat="server">
@@ -32,7 +40,7 @@
 	<div id="HeaderContent">
 		<div id="Branding">
 			<div style="float: left; height: 29px;">
-				<a href="#" onclick=getNewPage('Default.aspx');><div style="position: relative; left: 17px; float: left; height: 29px;">
+				<a href="#" onclick=getNewPage('default.aspx');><div style="position: relative; left: 17px; float: left; height: 29px;">
 					<img src="images/NeuroMama_small.png" alt="NEUROMAMA" height="31" width="108">
 				</div>
 				</a>
