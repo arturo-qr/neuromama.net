@@ -322,6 +322,11 @@
         	</ul>
 		</div-->
 		<div id="floatright">
+			<div style="margin-top: 20px;margin-bottom: 20px;">
+				<a href="rs/Download_Information.html"  target="_blank">
+					<b style="font-size: 25px" >Download Information</b>
+				</a>
+			</div>
 			<!-- Property Links -->
 			<div id="PropertyLinks" >
 				<div style="width: 150px; height:24px; position:relative;">
