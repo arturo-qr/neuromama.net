@@ -20,15 +20,6 @@
 		<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
 		<!-- TESTING PDFVIEWER-->
 		<link rel="stylesheet" href="style.css" />
-		<nav>
-			<ul onmouseover=painttab(1); onmouseout=unpainttab(1);>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/introduction.aspx');>Eurasia Introduction</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/overview.aspx');>Eurasia Overview</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/philosophy.aspx');>Eurasia Philosophy</a></li>
-						<li style="padding-top: 8px;"><a href="#"  onclick=getNewPage('tabs/1-overview/mission.aspx');>Eurasia Mission</a></li>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="#"  onclick=getNewPage('tabs/1-overview/reestablishing.aspx');>Reestablishing Las Vegas As The Cross-Trail Of The World</a></li>
-					</ul> 
-		</nav>
 		<!--End of block of pdftesting
         <script type="text/javascript" src="tinybox.js"></script>
 		<asp:ContentPlaceHolder id="head" runat="server">
@@ -36,7 +27,10 @@
         -->
 	</head>
 <body>
-<div id="HeaderContainer">
+	<header>
+            <h1><?php echo 'Hola Mundo!'; ?></h1>
+            <!-- <nav>El men&uacute; si procediese</nav> --> <!-- Etiqueta comentada al no tener men&uacute; -->
+            <div id="HeaderContainer">
 	<div id="HeaderContent">
 		<div id="Branding">
 			<div style="float: left; height: 29px;">
@@ -83,6 +77,7 @@
 		<!-- /HeaderNavigation -->
 	</div>
 </div>
+    </header>
 <!-- include virtual="/include/main-navigation-ie6.ascx" -->
 <div id="newpagecontent"></div>
 <div id="flashvideoholder2"></div>
