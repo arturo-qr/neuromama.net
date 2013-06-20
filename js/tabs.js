@@ -133,7 +133,7 @@
 		}
 		
 	function getNewPage(page_url) {
-		if(page_url.toString().indexOf("Default.aspx") != -1){
+		if(page_url.toString().indexOf("../index.php") != -1){
 			//jQuery('#HomeGallery').hide();
 			ajax(page_url, '', f_curFinishFunction2);
 			//jQuery('#HomeGallery').fadeIn('slow');

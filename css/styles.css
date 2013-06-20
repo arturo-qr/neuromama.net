@@ -51,7 +51,10 @@ div#SubHeader{padding-left: 100px; float: left; margin-top:10px; height: 20px;}
 /*************************************
 	Home Page Styles
 *************************************/
-
+#newpagecontent{
+	padding: 0px 0px 0px 0px;
+	margin: 0 auto;
+}
 #HomeColumn1{
 	padding: 0px 0px 0px 0px;
 	margin: 0 auto;
