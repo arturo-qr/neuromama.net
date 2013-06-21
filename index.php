@@ -453,7 +453,7 @@
 						<div style="width: 150px; height:24px; position:relative;">
 							<div id="CorporateContainer1">
 								<div id="CorporateInner1">
-									<a href="#" onclick="pauseVideo();TINY.box.show({url:'media/v1.html',width:720,height:480})">VIDEO 1</a><br>
+									<!--a href="#" onclick="pauseVideo();TINY.box.show({url:'media/v1.html',width:720,height:480})">VIDEO 1</a><br-->
 								</div>
 								<div id="CorporateButton1">
 									<a href="#">
