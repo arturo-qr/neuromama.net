@@ -19,7 +19,12 @@ a:hover{font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decorati
 html { overflow-y:auto; }
 
 /* =body */
-body{background: #040c2d url(../images/layout/MainBackground.jpg) top center no-repeat;}
+body{background: #040c2d url(../images/layout/MainBackground.jpg) top center  no-repeat;}
+
+div#PageContainerOuter{width: 100%; background: url(../images/layout/MainBackground.jpg) center -488px no-repeat; position:relative; }
+
+div#PageContainer{top:15px; width: 1015px; margin: 0 auto;  }
+
 
 /*a{color: #994C33; text-decoration: underline;}
 a:hover{color: #994C33; text-decoration: none;}
@@ -34,7 +39,7 @@ div#HeaderContainer {
 	background-position: top center;*/
 	height: 120px;
 	width: 100%;
-	position: absolute;
+	position: relative;
 	z-index: 20;
 	
 }
@@ -72,8 +77,6 @@ div#HomeGalleryNavigation{
 	height: 170px;
 	background: url(../images/NeuroMama.png) top left no-repeat;
 	background-size: 494px 141px;
-	margin: 0px 0px 0px 19px;
-	padding: 0px 0px 0px 2px;
 }
 div#HomeGalleryNavigation img{ float: none; }
 
@@ -320,12 +323,6 @@ a.btnReserveTable:active{color: #E7D9AD !important; text-decoration: none; backg
 /* =asterisk copy */
 
 .asterisk{font-family: Verdana, Arial, Helvetica, sans-serif; font-size:9px; line-height: 12px;}
-
-div#PageContainerOuter{ width: 100%; background: url(../images/layout/MainBackground.jpg) center -488px no-repeat; }
-
-div#PageContainer{position:relative; top:15px; width: 1015px; margin: 0 auto;  }
-
-div#PageContent{ width: 1050px; background: url(../images/layout/MainBackground.jpg) no-repeat;  background-position: center -528px; }
 
 /*************************************
 	Column 1 Styles
